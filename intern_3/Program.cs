@@ -23,4 +23,6 @@ switch (day)
     break;
     case 7: Console.WriteLine("Воскресение");
     break;
+    default: Console.WriteLine("Неверный ввод.");
+    break;
 }
